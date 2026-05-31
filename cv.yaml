@@ -9,7 +9,7 @@ cv:
       username: "bambanggunawanid"
   sections:
     summary:
-      - "Cloud Operations & DevOps Engineer powering infrastructure within the Samsung SmartThings IoT ecosystem on AWS, delivering Content Management Systems serving 200M+ weekly requests via CloudFront across six enterprise projects. Architected zero downtime deployments using canary and blue/green strategies on Amazon ECS and Application Load Balancer (ALB), drove 40% security posture improvement, and cut operational costs by 15%. Skilled in Infrastructure as Code (Terraform, Ansible), CI/CD automation, and cloud monitoring (Amazon CloudWatch, Prometheus, Grafana). Simultaneously leads cloud operations at Samsung R&D Institute Indonesia, and serves as Developer Lead at Wolftagon, overseeing both infrastructure and product delivery."
+      - "Cloud Operations & DevOps Engineer powering infrastructure within the Samsung SmartThings IoT ecosystem on AWS, delivering Content Management Systems serving 200M+ weekly requests via CloudFront across six enterprise projects. Architected zero downtime deployments using canary and blue/green strategies on Amazon ECS and Application Load Balancer (ALB), drove 40% security posture improvement, and cut operational costs by 20%-40%. Skilled in Infrastructure as Code (Terraform, Ansible), CI/CD automation, and cloud monitoring (Amazon CloudWatch, Prometheus, Grafana). Simultaneously leads cloud operations at Samsung R&D Institute Indonesia, and serves as Developer Lead at Wolftagon, overseeing both infrastructure and product delivery."
     experience:
       - company: "Samsung R&D Institute Indonesia"
         position: "DevOps Engineer & Cloud Operations"
