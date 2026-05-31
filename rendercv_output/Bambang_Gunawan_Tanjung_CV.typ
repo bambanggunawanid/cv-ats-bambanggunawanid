@@ -6,7 +6,7 @@
   name: "Bambang Gunawan Tanjung",
   title: "Bambang Gunawan Tanjung - CV",
   footer: context { [#emph[Bambang Gunawan Tanjung -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in June 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 6,
-    day: 1,
+    month: 5,
+    day: 31,
   ),
 )
 
