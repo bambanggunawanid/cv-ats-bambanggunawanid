@@ -9,3 +9,6 @@ docker
 
 # Secrets
 *.env*
+
+# Unnecessary Folder
+scripts
