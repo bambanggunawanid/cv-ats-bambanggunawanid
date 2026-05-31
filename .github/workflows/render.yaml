@@ -1,0 +1,39 @@
+name: Render CV
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'resume.yaml'
+  workflow_dispatch:
+
+env:
+  USER_EMAIL: bambanggunawan887@gmail.com
+  USER_NAME: bambanggunawanid
+jobs:
+  rendercv:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run RenderCV Pipeline
+        uses: rendercv/rendercv-pipeline-action@v1
+        with:
+          cv_file_path: resume.yaml
+          generate_png_preview: false
+
+      - name: Commit and Push Rendered PDF
+        run: |
+          git config --local user.email "${{ env.USER_EMAIL }}"
+          git config --local user.name "${{ env.USER_NAME }}"
+
+          mkdir -p output
+          mv rendercv_output/*.pdf output/CV_Bambang_Gunawan.pdf 2>/dev/null || mv *.pdf output/CV_Bambang_Gunawan.pdf 2>/dev/null
+
+          git add output/CV_Bambang_Gunawan.pdf
+          git commit -m "chore: update rendered PDF [skip ci]" || exit 0
+          git push

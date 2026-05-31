@@ -1,0 +1,11 @@
+# Python venv
+.venv
+*.pyc
+*.pyo
+__pycache__
+
+# Docker
+docker
+
+# Secrets
+*.env*
