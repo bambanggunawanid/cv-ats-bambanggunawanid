@@ -1,23 +1,15 @@
 cv:
   name: "Bambang Gunawan Tanjung"
   headline: "DevOps & Cloud Operations Engineer | Samsung SmartThings Ecosystem | AWS Infrastructure at Scale"
-  location: Jakarta, DKI Jakarta, Indonesia
+  location: Jakarta, Indonesia
   email: "bambanggunawan887@gmail.com"
-  phone:
   website: https://www.bambanggunawan.id
   social_networks:
     - network: "LinkedIn"
       username: "bambanggunawanid"
   sections:
     summary:
-      - "Cloud Operations & DevOps Engineer powering infrastructure within the
-        Samsung SmartThings IoT ecosystem on AWS — delivering Content Management
-        Systems serving 200M+ weekly requests via CloudFront across 6 enterprise
-        projects. Architected zero-downtime deployments (canary + blue/green on
-        ECS/ALB), drove 40% security posture improvement, and cut operational costs
-        by 15%. Dual-track operator: leading cloud operations at Samsung R&D
-        Institute Indonesia while serving as Developer Lead at Wolftagon,
-        simultaneously owning infrastructure and product delivery."
+      - "Cloud Operations & DevOps Engineer powering infrastructure within the Samsung SmartThings IoT ecosystem on AWS, delivering Content Management Systems serving 200M+ weekly requests via CloudFront across six enterprise projects. Architected zero downtime deployments using canary and blue/green strategies on Amazon ECS and Application Load Balancer (ALB), drove 40% security posture improvement, and cut operational costs by 15%. Skilled in Infrastructure as Code (Terraform, Ansible), CI/CD automation, and cloud monitoring (Amazon CloudWatch, Prometheus, Grafana). Simultaneously leads cloud operations at Samsung R&D Institute Indonesia, and serves as Developer Lead at Wolftagon, overseeing both infrastructure and product delivery."
     experience:
       - company: "Samsung R&D Institute Indonesia"
         position: "DevOps Engineer & Cloud Operations"
@@ -33,10 +25,11 @@ cv:
             CMS and Content Portal Admin — 100% deployment success rate across
             global rollouts"
           - "Architected canary and blue/green deployment pipelines for
-            SmartThings CMS on ECS/ALB — reduced deployment downtime to
-            zero-detectable"
-          - "Hardened security posture by resolving 250+ vulnerability fail
-            points — lifted Samsung Security portal score by 40%"
+            SmartThings CMS on ECS/ALB — achieved zero downtime deployments
+            across global rollouts"
+          - "Hardened security posture by resolving critical vulnerabilities
+            across production environments — lifted Samsung Security portal score
+            by 40%"
           - "Designed AWS security group architecture for 3 projects per
             Samsung best practices — achieved 35% security posture uplift per
             project audit"
@@ -45,14 +38,13 @@ cv:
             performance and horizontal scalability"
           - "Established daily AWS/VM/DB security audit checklists — sustained
             100% compliance with Samsung Security Standards across all environments"
-          - "Initiated bi-weekly DevSecOps and AWS best-practice workshops —
-            contributed to 25% team velocity improvement"
-          - "Owned delivery of 3 critical SRIN products (Salaam App, S-Lime
-            App, E-Smart) — achieved 99.99% service availability,
-            exceeding the 99.9% baseline across all 6 SRIN projects"
+          - "Initiated regular DevSecOps and AWS best-practice workshops"
+          - "Owned delivery of 3 critical SRIN products — achieved 99.99%
+            service availability, exceeding the 99.9% baseline across all
+            6 SRIN projects"
         summary: "Skills: AWS (EC2, ECS, EKS, CloudFront, S3, RDS, Lambda,
-          CloudFormation, CodeBuild), DevOps, Linux, Docker, Kubernetes, CI/CD,
-          Security Compliance Frameworks, Go"
+          CloudFormation, CodeBuild, CloudWatch), DevOps, Linux, Docker,
+          Kubernetes, CI/CD, Security Compliance Frameworks, Go"
       - company: "Wolftagon"
         position: "Full Stack Engineer & Developer Lead (Concurrent)"
         location: "Indonesia"
@@ -61,8 +53,7 @@ cv:
         highlights:
           - "Lead development of the Kolektibles App as Developer Lead —
             full-stack delivery in Golang and React Vite"
-          - "Architected AWS cloud infrastructure and GitHub Actions CI/CD
-            pipelines for Kolektibles — from zero to production deployment"
+          - "Architected AWS cloud infrastructure and GitHub Actions CI/CD pipelines for Kolektibles, leading the project from inception to production deployment."
           - "Engineered 80+ REST API endpoints for Kolektibles (Golang) and
             Admin Dashboard eCommerce platform (React Vite)"
           - "Built an async bridge system synchronizing third-party stakeholder
@@ -76,28 +67,18 @@ cv:
         start_date: "2022-08"
         end_date: "2023-01"
         highlights:
-          - "Architected and shipped 2 microservices from greenfield — delivered
-            40+ RESTful APIs for Life App (Java Quarkus, ORM JPA)"
-          - "Owned 3 core services and optimized microservice architecture —
-            drove 20% system performance uplift"
-          - "Modeled UML database architecture for initial core services — cut
-            downstream development time by 15%"
+          - "Led backend architecture for IFG LifeSaver — the insurer's first
+            premi product for athlete assurance, delivering core API infrastructure
+            from ground up"
+          - "Designed UML-based system architecture and database schemas for
+            a greenfield product initiative — accelerated development velocity
+            by 15% through upfront design clarity"
+          - "Architected and shipped 2 microservices from scratch — delivered
+            40+ RESTful APIs powering the Life App (Java Quarkus, ORM JPA)"
           - "Established code review processes and documentation standards —
             drove 85% reduction in post-release bug reports"
           - "Optimized database queries — reduced API response times by 30%"
         summary: "Skills: Java, Quarkus, Git, Maven, PostgreSQL, Postman, Microservices"
-      - company: "DROP"
-        position: "Web Developer (Internship)"
-        location: "Jakarta, Indonesia"
-        start_date: "2022-05"
-        end_date: "2022-07"
-        highlights:
-          - "Delivered backend for the D-Laundry revamp project"
-          - "Engineered 20+ RESTful API endpoints (CodeIgniter 4, PostgreSQL, JWT,
-            Postman) for D-Laundry"
-          - "Authored comprehensive Postman API documentation — completed all
-            monolithic service requirements ahead of schedule"
-        summary: "Skills: Codeigniter, Postgresql, RestAPI"
     education:
       - institution: "Universitas Brawijaya"
         area: "Computer Engineering"
@@ -109,21 +90,23 @@ cv:
             Hector SLAM and Navfn algorithms (see Publications)
         location: Malang, East Java
     publications:
-      - title: Prototype of an Autonomous Mobile Robot with a Hoverboard and RPLIDAR
-          Sensor Using Hector SLAM and Navfn Algorithms
+      - title: Autonomous Mobile Robot Navigation Using Hector SLAM and Navfn
         authors:
           - "*Bambang Gunawan Tanjung*"
         date: "2022"
-        url: https://garuda.kemdiktisaintek.go.id/documents/detail/2942426
     certifications:
       - name: "Samsung Advanced Programming (AADC) Certification — C++"
+        date: "2023"
     skills:
       - label: "Cloud & DevOps"
-        details: "AWS (EC2, ECS, EKS, CloudFront, S3, RDS, Lambda, CloudFormation,
-          CodeBuild), Terraform, Ansible, Docker, Kubernetes, CI/CD, Linux,
-          Security Compliance Frameworks"
+        details: "AWS (EC2, ECS, EKS, CloudFront, S3, RDS, Lambda, CloudFormation, CodeBuild, CloudWatch), Terraform, Ansible, Docker, Kubernetes, Helm, CI/CD, Linux, Security Compliance Frameworks"
+      - label: "Monitoring & Observability"
+        details: "Prometheus, Grafana, PagerDuty, Datadog, AWS CloudWatch, SNS Alerting"
+      - label: "CI/CD & GitOps"
+        details: "GitHub Actions, AWS CodeDeploy, Spinnaker"
       - label: "Software Engineering"
-        details: "Go, Java (Quarkus), C++, JavaScript (React, Vite, TypeScript),
+        details:
+          "Go, Python, Java (Quarkus), C++, JavaScript (React, Vite, TypeScript),
           CodeIgniter, PostgreSQL, Microservices, RESTful APIs"
       - label: "Languages"
         details: "English (Professional Working), Indonesian (Native)"

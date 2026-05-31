@@ -2,10 +2,10 @@ design:
   theme: engineeringclassic
   page:
     size: us-letter
-    top_margin: 0.7in
-    bottom_margin: 0.7in
-    left_margin: 0.7in
-    right_margin: 0.7in
+    top_margin: 0.4in
+    bottom_margin: 0.3in
+    left_margin: 0.4in
+    right_margin: 0.4in
     show_footer: true
     show_top_note: true
   colors:
@@ -22,11 +22,11 @@ design:
     alignment: justified
     date_and_location_column_alignment: right
     font_family:
-      body: Raleway
-      name: Raleway
-      headline: Raleway
-      connections: Raleway
-      section_titles: Raleway
+      body: Ubuntu
+      name: Ubuntu
+      headline: Ubuntu
+      connections: Ubuntu
+      section_titles: Ubuntu
     font_size:
       body: 10pt
       name: 30pt
