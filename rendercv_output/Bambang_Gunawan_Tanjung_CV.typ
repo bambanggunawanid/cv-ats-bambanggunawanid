@@ -6,14 +6,14 @@
   name: "Bambang Gunawan Tanjung",
   title: "Bambang Gunawan Tanjung - CV",
   footer: context { [#emph[Bambang Gunawan Tanjung -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in June 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
-  page-top-margin: 0.7in,
-  page-bottom-margin: 0.7in,
-  page-left-margin: 0.7in,
-  page-right-margin: 0.7in,
+  page-top-margin: 0.4in,
+  page-bottom-margin: 0.3in,
+  page-left-margin: 0.4in,
+  page-right-margin: 0.4in,
   page-show-footer: true,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
@@ -27,11 +27,11 @@
   typography-line-spacing: 0.6em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "Source Sans 3",
-  typography-font-family-name: "Source Sans 3",
-  typography-font-family-headline: "Source Sans 3",
-  typography-font-family-connections: "Source Sans 3",
-  typography-font-family-section-titles: "Source Sans 3",
+  typography-font-family-body: "Ubuntu",
+  typography-font-family-name: "Ubuntu",
+  typography-font-family-headline: "Ubuntu",
+  typography-font-family-connections: "Ubuntu",
+  typography-font-family-section-titles: "Ubuntu",
   typography-font-size-body: 10pt,
   typography-font-size-name: 30pt,
   typography-font-size-headline: 10pt,
@@ -42,12 +42,12 @@
   typography-small-caps-connections: false,
   typography-small-caps-section-titles: false,
   typography-bold-name: true,
-  typography-bold-headline: false,
+  typography-bold-headline: true,
   typography-bold-connections: false,
-  typography-bold-section-titles: true,
+  typography-bold-section-titles: false,
   links-underline: false,
   links-show-external-link-icon: false,
-  header-alignment: center,
+  header-alignment: left,
   header-photo-width: 3.5cm,
   header-space-below-name: 0.7cm,
   header-space-below-headline: 0.7cm,
@@ -57,7 +57,7 @@
   header-connections-display-urls-instead-of-usernames: false,
   header-connections-separator: "",
   header-connections-space-between-connections: 0.5cm,
-  section-titles-type: "with_partial_line",
+  section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
   section-titles-space-above: 0.5cm,
   section-titles-space-below: 0.3cm,
@@ -68,20 +68,20 @@
   entries-side-space: 0.2cm,
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
-  entries-short-second-row: true,
+  entries-short-second-row: false,
   entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
-  entries-summary-space-above: 0cm,
+  entries-summary-space-above: 0.12cm,
   entries-highlights-bullet:  "•" ,
   entries-highlights-nested-bullet:  "•" ,
-  entries-highlights-space-left: 0.15cm,
-  entries-highlights-space-above: 0cm,
-  entries-highlights-space-between-items: 0cm,
+  entries-highlights-space-left: 0cm,
+  entries-highlights-space-above: 0.12cm,
+  entries-highlights-space-between-items: 0.12cm,
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 6,
-    day: 1,
+    month: 5,
+    day: 31,
   ),
 )
 
@@ -106,8 +106,14 @@ Cloud Operations & DevOps Engineer powering infrastructure within the Samsung Sm
 
 #regular-entry(
   [
-    #strong[Samsung R&D Institute Indonesia], DevOps Engineer & Cloud Operations
+    #strong[DevOps Engineer & Cloud Operations], Samsung R&D Institute Indonesia -- Jakarta, Indonesia
 
+  ],
+  [
+    Mar 2023 – present
+
+  ],
+  main-column-second-row: [
     #summary[Skills: AWS (EC2, ECS, EKS, CloudFront, S3, RDS, Lambda, CloudFormation, CodeBuild, CloudWatch), DevOps, Linux, Docker, Kubernetes, CI\/CD, Security Compliance Frameworks, Go]
 
     - Own and optimize AWS cloud infrastructure across 6 SRIN production environments (multi-AZ, multi-cluster, 200M+ weekly requests via CloudFront) — sustaining 99.9\% uptime and driving 20-40\% operational cost reduction
@@ -129,22 +135,18 @@ Cloud Operations & DevOps Engineer powering infrastructure within the Samsung Sm
     - Owned delivery of 3 critical SRIN products — achieved 99.99\% service availability, exceeding the 99.9\% baseline across all 6 SRIN projects
 
   ],
-  [
-    Jakarta, Indonesia
-
-    Mar 2023 – present
-
-    
-
-    3 years 4 months
-
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Wolftagon], Full Stack Engineer & Developer Lead (Concurrent)
+    #strong[Full Stack Engineer & Developer Lead (Concurrent)], Wolftagon -- Indonesia
 
+  ],
+  [
+    Feb 2023 – present
+
+  ],
+  main-column-second-row: [
     #summary[Skills: Golang, React (Typescript), CI\/CD, AWS, Lead and mentorship]
 
     - Lead development of the Kolektibles App as Developer Lead — full-stack delivery in Golang and React Vite
@@ -158,22 +160,18 @@ Cloud Operations & DevOps Engineer powering infrastructure within the Samsung Sm
     - Mentored 2-3 intern developers and resolved critical infrastructure blockers for the Solelands project
 
   ],
-  [
-    Indonesia
-
-    Feb 2023 – present
-
-    
-
-    3 years 5 months
-
-  ],
 )
 
 #regular-entry(
   [
-    #strong[IFG Life], Back End Developer (Contract)
+    #strong[Back End Developer (Contract)], IFG Life -- Jakarta, Indonesia
 
+  ],
+  [
+    Aug 2022 – Jan 2023
+
+  ],
+  main-column-second-row: [
     #summary[Skills: Java, Quarkus, Git, Maven, PostgreSQL, Postman, Microservices]
 
     - Led backend architecture for IFG LifeSaver — the insurer's first premi product for athlete assurance, delivering core API infrastructure from ground up
@@ -187,35 +185,22 @@ Cloud Operations & DevOps Engineer powering infrastructure within the Samsung Sm
     - Optimized database queries — reduced API response times by 30\%
 
   ],
-  [
-    Jakarta, Indonesia
-
-    Aug 2022 – Jan 2023
-
-    
-
-    6 months
-
-  ],
 )
 
 == Education
 
 #education-entry(
   [
-    #strong[Universitas Brawijaya], Computer Engineering
-
-    - Published research on autonomous mobile robot navigation using Hector SLAM and Navfn algorithms (see Publications)
+    #strong[Universitas Brawijaya], BE in Computer Engineering -- Malang, East Java
 
   ],
   [
-    Malang, East Java
-
     Aug 2018 – July 2022
 
   ],
-  degree-column: [
-    #strong[BE]
+  main-column-second-row: [
+    - Published research on autonomous mobile robot navigation using Hector SLAM and Navfn algorithms (see Publications)
+
   ],
 )
 
@@ -225,11 +210,13 @@ Cloud Operations & DevOps Engineer powering infrastructure within the Samsung Sm
   [
     #strong[Autonomous Mobile Robot Navigation Using Hector SLAM and Navfn]
 
-    #emph[Bambang Gunawan Tanjung]
-
   ],
   [
     Jan 2022
+
+  ],
+  main-column-second-row: [
+    #emph[Bambang Gunawan Tanjung]
 
   ],
 )
@@ -244,6 +231,8 @@ Cloud Operations & DevOps Engineer powering infrastructure within the Samsung Sm
   [
     Jan 2023
 
+  ],
+  main-column-second-row: [
   ],
 )
 
