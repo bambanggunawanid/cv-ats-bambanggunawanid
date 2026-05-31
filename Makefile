@@ -3,7 +3,7 @@
 DATE := $(shell date +"%Y")
 
 render:
-	@echo " Combining YAML files..."
+	@echo "Combining YAML files..."
 	@cat cv.yaml > full_resume.yaml
 	@echo "" >> full_resume.yaml
 	@if [ -f config/design.yaml ]; then cat config/design.yaml >> full_resume.yaml; echo "" >> full_resume.yaml; fi

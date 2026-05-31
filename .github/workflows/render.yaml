@@ -28,15 +28,11 @@ jobs:
           python-version: '3.12'
 
       - name: Install RenderCV
-        run: pip install rendercv
+        run: pip install rendercv[full]
 
       - name: Render CV
         run: |
-          ARGS=(cv.yaml)
-          [ -f config/design.yaml ]   && ARGS+=(--design config/design.yaml)
-          [ -f config/locale.yaml ]   && ARGS+=(--locale-catalog config/locale.yaml)
-          [ -f config/settings.yaml ] && ARGS+=(--settings config/settings.yaml)
-          rendercv render "${ARGS[@]}"
+          make render
 
       - name: Commit and Push Rendered PDF
         run: |
@@ -46,9 +42,7 @@ jobs:
           PDF_YEAR=$(date +"%Y")
           OUTPUT_PDF="Bambang_Gunawan_CV_${PDF_YEAR}.pdf"
 
-          mkdir -p output
-          mv rendercv_output/*.pdf "output/${OUTPUT_PDF}" 2>/dev/null || mv *.pdf "output/${OUTPUT_PDF}" 2>/dev/null
-
-          git add "output/${OUTPUT_PDF}"
+          git add "${OUTPUT_PDF}"
+          git add rendercv_output
           git commit -m "chore: update rendered PDF [skip ci]" || exit 0
           git push
