@@ -7,6 +7,7 @@ render:
 	@cat cv.yaml > full_resume.yaml
 	@echo "" >> full_resume.yaml
 	@if [ -f config/design.yaml ]; then cat config/design.yaml >> full_resume.yaml; echo "" >> full_resume.yaml; fi
+	@if [ -f config/locale.yaml ]; then cat config/locale.yaml >> full_resume.yaml; echo "" >> full_resume.yaml; fi
 	@if [ -f config/settings.yaml ]; then cat config/settings.yaml >> full_resume.yaml; fi
 
 	@echo " Running RenderCV in Native via Apple Silicon..."

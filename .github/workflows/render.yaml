@@ -12,6 +12,7 @@ on:
 env:
   USER_EMAIL: bambanggunawan887@gmail.com
   USER_NAME: bambanggunawanid
+
 jobs:
   rendercv:
     runs-on: ubuntu-latest
@@ -26,6 +27,7 @@ jobs:
           cat cv.yaml > full_resume.yaml
           echo "" >> full_resume.yaml
           if [ -f config/design.yaml ]; then cat config/design.yaml >> full_resume.yaml; echo "" >> full_resume.yaml; fi
+          if [ -f config/locale.yaml ]; then cat config/locale.yaml >> full_resume.yaml; echo "" >> full_resume.yaml; fi
           if [ -f config/settings.yaml ]; then cat config/settings.yaml >> full_resume.yaml; fi
 
       - name: Run RenderCV Pipeline
@@ -39,9 +41,16 @@ jobs:
           git config --local user.email "${{ env.USER_EMAIL }}"
           git config --local user.name "${{ env.USER_NAME }}"
 
-          mkdir -p output
-          mv rendercv_output/*.pdf output/CV_Bambang_Gunawan.pdf 2>/dev/null || mv *.pdf output/CV_Bambang_Gunawan.pdf 2>/dev/null
+          PDF_YEAR=$(date +"%Y")
+          OUTPUT_PDF="Bambang_Gunawan_CV_${PDF_YEAR}.pdf"
 
-          git add output/CV_Bambang_Gunawan.pdf
+          mkdir -p output
+          mv rendercv_output/*.pdf "output/${OUTPUT_PDF}" 2>/dev/null || mv *.pdf "output/${OUTPUT_PDF}" 2>/dev/null
+
+          git add "output/${OUTPUT_PDF}"
           git commit -m "chore: update rendered PDF [skip ci]" || exit 0
           git push
+
+      - name: Clean up temporary files
+        if: always()
+        run: rm -f full_resume.yaml
