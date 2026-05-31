@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'cv.yaml'
-      - 'config/**'
   workflow_dispatch:
 
 env:
