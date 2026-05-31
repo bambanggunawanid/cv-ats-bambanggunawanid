@@ -116,7 +116,7 @@ Cloud Operations & DevOps Engineer powering infrastructure within the Samsung Sm
   main-column-second-row: [
     #summary[Skills: AWS (EC2, ECS, EKS, CloudFront, S3, RDS, Lambda, CloudFormation, CodeBuild), DevOps, Linux, Docker, Kubernetes, CI\/CD, Security Compliance Frameworks, Go]
 
-    - Own and optimize AWS cloud infrastructure across 6 SRIN production environments (multi-AZ, multi-cluster, 200M+ weekly requests via CloudFront) — sustaining 99.9\% uptime and driving 15\% operational cost reduction
+    - Own and optimize AWS cloud infrastructure across 6 SRIN production environments (multi-AZ, multi-cluster, 200M+ weekly requests via CloudFront) — sustaining 99.9\% uptime and driving 20-40\% operational cost reduction
 
     - Drive deployments and critical hotfixes for Samsung SmartThings CMS and Content Portal Admin — 100\% deployment success rate across global rollouts
 
