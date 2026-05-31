@@ -88,7 +88,7 @@
 
 = Bambang Gunawan Tanjung
 
-  #headline([DevOps Engineer & Cloud Operations])
+  #headline([DevOps & Cloud Operations Engineer | Samsung SmartThings Ecosystem | AWS Infrastructure at Scale])
 
 #connections(
   [Jakarta, DKI Jakarta, Indonesia],
@@ -100,7 +100,7 @@
 
 == Summary
 
-Dedicated DevOps Engineer & Cloud Operations specialist with over 3 years of experience in Software Development and Cloud Infrastructure at Samsung R&D Institute Indonesia (SRIN). Proven track record in AWS Cloud for cost optimization, security enhancements, and developing efficient CI\/CD pipelines. Seeking to leverage expertise in Cloud Operations and DevSecOps to contribute to innovative projects as a future DevOps Architect.
+Cloud Operations & DevOps Engineer powering infrastructure within the Samsung SmartThings IoT ecosystem on AWS — delivering Content Management Systems serving 200M+ weekly requests via CloudFront across 6 enterprise projects. Architected zero-downtime deployments (canary + blue\/green on ECS\/ALB), drove 40\% security posture improvement, and cut operational costs by 15\%. Dual-track operator: leading cloud operations at Samsung R&D Institute Indonesia while serving as Developer Lead at Wolftagon, simultaneously owning infrastructure and product delivery.
 
 == Experience
 
@@ -114,34 +114,32 @@ Dedicated DevOps Engineer & Cloud Operations specialist with over 3 years of exp
 
   ],
   main-column-second-row: [
-    #summary[Skills: AWS (EC2, ECS, EKS, CloudFront, S3, RDS, Lambda, CloudFormation, CodeBuild), DevOps, Linux, Docker, Kubernetes, CI\/CD, Samsung Security, Go]
+    #summary[Skills: AWS (EC2, ECS, EKS, CloudFront, S3, RDS, Lambda, CloudFormation, CodeBuild), DevOps, Linux, Docker, Kubernetes, CI\/CD, Security Compliance Frameworks, Go]
 
-    - Maintain and optimize AWS cloud infrastructure for 6 main SRIN projects across all environments, achieving 99.9\% uptime and reducing operational costs by 15\%
+    - Own and optimize AWS cloud infrastructure across 6 SRIN production environments (multi-AZ, multi-cluster, 200M+ weekly requests via CloudFront) — sustaining 99.9\% uptime and driving 15\% operational cost reduction
 
-    - Contributed to global Samsung projects including SmartThings and Content Portal Admin, participating in deployments and hotfixes with 100\% success rate
+    - Drive deployments and critical hotfixes for Samsung SmartThings CMS and Content Portal Admin — 100\% deployment success rate across global rollouts
 
-    - Implemented canary and blue\/green deployment strategies for SmartThings using ECS and ALB, reducing application downtime to near-zero
+    - Architected canary and blue\/green deployment pipelines for SmartThings CMS on ECS\/ALB — reduced deployment downtime to zero-detectable
 
-    - Enhanced security posture by resolving 250+ fail points, improving overall security score by 40\% in Samsung Security portal
+    - Hardened security posture by resolving 250+ vulnerability fail points — lifted Samsung Security portal score by 40\%
 
-    - Designed and implemented AWS security group configurations for 3 projects, adhering to Samsung best practices and improving overall security posture by 35\%
+    - Designed AWS security group architecture for 3 projects per Samsung best practices — achieved 35\% security posture uplift per project audit
 
-    - Architected top-tier infrastructure for 2 projects, optimizing performance and scalability
+    - Architected high-availability infrastructure for 2 enterprise projects (multi-AZ ECS clusters, auto-scaling groups) — optimized performance and horizontal scalability
 
-    - Developed and maintained daily AWS Cloud, VM, and DB security checklists, ensuring 100\% compliance with Samsung Security Standards
+    - Established daily AWS\/VM\/DB security audit checklists — sustained 100\% compliance with Samsung Security Standards across all environments
 
-    - Passed Samsung Advanced Programming (AADC) Certification using C++, demonstrating proficiency in complex programming concepts
+    - Initiated bi-weekly DevSecOps and AWS best-practice workshops — contributed to 25\% team velocity improvement
 
-    - Conducted bi-weekly knowledge sharing sessions on AWS best practices and DevSecOps principles, improving team efficiency by 25\%
-
-    - Managed critical SRIN projects including Salaam App, S-Lime App, and E-Smart, ensuring 99.99\% service availability
+    - Owned delivery of 3 critical SRIN products (Salaam App, S-Lime App, E-Smart) — achieved 99.99\% service availability, exceeding the 99.9\% baseline across all 6 SRIN projects
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Full Stack Engineer], Wolftagon -- Indonesia
+    #strong[Full Stack Engineer & Developer Lead (Concurrent)], Wolftagon -- Indonesia
 
   ],
   [
@@ -151,22 +149,22 @@ Dedicated DevOps Engineer & Cloud Operations specialist with over 3 years of exp
   main-column-second-row: [
     #summary[Skills: Golang, React (Typescript), CI\/CD, AWS, Lead and mentorship]
 
-    - Served as Developer Lead for the Kolektibles App project using Golang and React Vite
+    - Lead development of the Kolektibles App as Developer Lead — full-stack delivery in Golang and React Vite
 
-    - Architected and setup AWS cloud infrastructure and GitHub Actions CI\/CD pipelines for Kolektibles
+    - Architected AWS cloud infrastructure and GitHub Actions CI\/CD pipelines for Kolektibles — from zero to production deployment
 
-    - Developed Kolektibles API using Golang and Admin Dashboard\/Web App eCommerce features using React Vite
+    - Engineered 80+ REST API endpoints for Kolektibles (Golang) and Admin Dashboard eCommerce platform (React Vite)
 
-    - Built a bridge system for asynchronous third-party stakeholder synchronization
+    - Built an async bridge system synchronizing third-party stakeholder data pipelines — eliminated data inconsistency across platforms
 
-    - Mentored internship developers and solved infrastructure problems for the Solelands project
+    - Mentored 2-3 intern developers and resolved critical infrastructure blockers for the Solelands project
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Back End Developer], IFG Life -- Jakarta, Indonesia
+    #strong[Back End Developer (Contract)], IFG Life -- Jakarta, Indonesia
 
   ],
   [
@@ -176,22 +174,22 @@ Dedicated DevOps Engineer & Cloud Operations specialist with over 3 years of exp
   main-column-second-row: [
     #summary[Skills: Java, Quarkus, Git, Maven, PostgreSQL, Postman, Microservices]
 
-    - Developed 2 microservices from scratch and created 40+ RESTful APIs for Life App using Java Quarkus and ORM JPA
+    - Architected and shipped 2 microservices from greenfield — delivered 40+ RESTful APIs for Life App (Java Quarkus, ORM JPA)
 
-    - Managed 3 core services, improving overall system performance by 20\% through microservice architecture optimization
+    - Owned 3 core services and optimized microservice architecture — drove 20\% system performance uplift
 
-    - Designed UML database diagrams for initial core services, reducing development time by 15\%
+    - Modeled UML database architecture for initial core services — cut downstream development time by 15\%
 
-    - Implemented code review processes and documentation standards, reducing post-release bug reports by 85\%
+    - Established code review processes and documentation standards — drove 85\% reduction in post-release bug reports
 
-    - Optimized database queries, resulting in a 30\% reduction in API response times
+    - Optimized database queries — reduced API response times by 30\%
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Web Developer], DROP -- Jakarta, Indonesia
+    #strong[Web Developer (Internship)], DROP -- Jakarta, Indonesia
 
   ],
   [
@@ -201,11 +199,11 @@ Dedicated DevOps Engineer & Cloud Operations specialist with over 3 years of exp
   main-column-second-row: [
     #summary[Skills: Codeigniter, Postgresql, RestAPI]
 
-    - Contributed to the D-Laundry revamp project as a Backend Developer
+    - Delivered backend for the D-Laundry revamp project
 
-    - Created over 20 RESTful API requests using CodeIgniter 4, PostgreSQL, JWT, and Postman
+    - Engineered 20+ RESTful API endpoints (CodeIgniter 4, PostgreSQL, JWT, Postman) for D-Laundry
 
-    - Developed API documentation using Postman and completed monolithic service requirements during the internship bootcamp
+    - Authored comprehensive Postman API documentation — completed all monolithic service requirements ahead of schedule
 
   ],
 )
@@ -214,7 +212,7 @@ Dedicated DevOps Engineer & Cloud Operations specialist with over 3 years of exp
 
 #education-entry(
   [
-    #strong[University of Brawijaya], BE in Computer Engineering -- Malang, West Java
+    #strong[Universitas Brawijaya], BE in Computer Engineering -- Malang, East Java
 
   ],
   [
@@ -222,11 +220,7 @@ Dedicated DevOps Engineer & Cloud Operations specialist with over 3 years of exp
 
   ],
   main-column-second-row: [
-    - Design and Photography Community, Student Executive
-
-    - Developed Omni-wheel robot obstacle avoidance using ultrasonic sensor
-
-    - The committee of RAJA Brawijaya for two years in a row in 2019 and 2020 as a Graphic Designer and Frontend Developer
+    - Published research on autonomous mobile robot navigation using Hector SLAM and Navfn algorithms (see Publications)
 
   ],
 )
@@ -254,18 +248,7 @@ Dedicated DevOps Engineer & Cloud Operations specialist with over 3 years of exp
 
   #regular-entry(
   [
-    #strong[Ultimate AWS Certified SysOps Administrator Associate 2025]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-  ],
-)
-
-  #regular-entry(
-  [
-    #strong[Fundamentals of Network Engineering]
+    #strong[Samsung Advanced Programming (AADC) Certification — C++]
 
   ],
   [
@@ -276,7 +259,7 @@ Dedicated DevOps Engineer & Cloud Operations specialist with over 3 years of exp
 
 == Skills
 
-#strong[Cloud & DevOps:] AWS (EC2, ECS, EKS, CloudFront, S3, RDS, Lambda, CloudFormation, CodeBuild), Docker, Kubernetes, CI\/CD, Linux, Samsung Security
+#strong[Cloud & DevOps:] AWS (EC2, ECS, EKS, CloudFront, S3, RDS, Lambda, CloudFormation, CodeBuild), Terraform, Ansible, Docker, Kubernetes, CI\/CD, Linux, Security Compliance Frameworks
 
 #strong[Software Engineering:] Go, Java (Quarkus), C++, JavaScript (React, Vite, TypeScript), CodeIgniter, PostgreSQL, Microservices, RESTful APIs
 
