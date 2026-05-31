@@ -22,19 +22,21 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Combine YAML files
-        run: |
-          cat cv.yaml > full_resume.yaml
-          echo "" >> full_resume.yaml
-          if [ -f config/design.yaml ]; then cat config/design.yaml >> full_resume.yaml; echo "" >> full_resume.yaml; fi
-          if [ -f config/locale.yaml ]; then cat config/locale.yaml >> full_resume.yaml; echo "" >> full_resume.yaml; fi
-          if [ -f config/settings.yaml ]; then cat config/settings.yaml >> full_resume.yaml; fi
-
-      - name: Run RenderCV Pipeline
-        uses: rendercv/rendercv-pipeline-action@v1
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          cv_file_path: full_resume.yaml
-          generate_png_preview: false
+          python-version: '3.12'
+
+      - name: Install RenderCV
+        run: pip install rendercv
+
+      - name: Render CV
+        run: |
+          ARGS=(cv.yaml)
+          [ -f config/design.yaml ]   && ARGS+=(--design config/design.yaml)
+          [ -f config/locale.yaml ]   && ARGS+=(--locale-catalog config/locale.yaml)
+          [ -f config/settings.yaml ] && ARGS+=(--settings config/settings.yaml)
+          rendercv render "${ARGS[@]}"
 
       - name: Commit and Push Rendered PDF
         run: |
@@ -50,7 +52,3 @@ jobs:
           git add "output/${OUTPUT_PDF}"
           git commit -m "chore: update rendered PDF [skip ci]" || exit 0
           git push
-
-      - name: Clean up temporary files
-        if: always()
-        run: rm -f full_resume.yaml
